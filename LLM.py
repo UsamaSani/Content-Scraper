@@ -5,7 +5,7 @@ from huggingface_hub import InferenceClient
 
 client = InferenceClient(
     provider="together",
-    api_key=""
+    api_key="use your api key"
 )
 
 def deepseek_summarize_single(text, model="deepseek-ai/DeepSeek-R1", retries=3):
